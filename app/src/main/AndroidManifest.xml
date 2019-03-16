@@ -33,10 +33,10 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <!-- Razor pay : SStWtUQ0v6ebhzp79PEt7zpP -->
+        <!-- Razor pay : your_key-->
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_test_9sKlKWrQZcw3RL" />
+            android:value="rzp_key" />
 
         <!-- Login and Reg -->
         <activity
