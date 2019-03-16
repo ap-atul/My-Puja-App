@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "934746622239",
+    "firebase_url": "https://mypooja-879ec.firebaseio.com",
+    "project_id": "mypooja-879ec",
+    "storage_bucket": "mypooja-879ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934746622239:android:43757907adb121cc",
+        "android_client_info": {
+          "package_name": "company.brandmore.com.mypooja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934746622239-1bc7o8l5rblk9hiecuajnmttdfnl7drv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "company.brandmore.com.mypooja",
+            "certificate_hash": "92b3b8ab8186dfc79d8ae9314b5b3de997a8cd52"
+          }
+        },
+        {
+          "client_id": "934746622239-fu62975oq2ktfbrda7osda4lc62rlff9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFaNi7qLkG6rZucc7cOZK2vsJd7q_nc4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934746622239-fu62975oq2ktfbrda7osda4lc62rlff9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

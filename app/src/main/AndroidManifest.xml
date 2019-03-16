@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="company.brandmore.com.mypooja">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+
+        <!-- Splash -->
+        <activity
+            android:name=".splashActivity"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Meta data API Keys -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <!-- Razor pay : SStWtUQ0v6ebhzp79PEt7zpP -->
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_9sKlKWrQZcw3RL" />
+
+        <!-- Login and Reg -->
+        <activity
+            android:name=".loginActivity"
+            android:theme="@style/LoginReg" />
+        <activity
+            android:name=".registerActivity"
+            android:theme="@style/LoginReg" />
+
+        <!-- Common and Utils -->
+        <activity
+            android:name=".common.contactUs"
+            android:theme="@style/AboutUs" />
+        <activity
+            android:name=".utils.mapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".common.chats"
+            android:theme="@style/List" />
+        <activity
+            android:name=".common.chatMessages"
+            android:theme="@style/List" />
+
+        <!-- User Yajman activities -->
+        <activity
+            android:name=".user.addPooja"
+            android:label="@string/title_activity_add_pooja"
+            android:theme="@style/AddPooja" />
+        <activity
+            android:name=".user.homePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user.panditList"
+            android:theme="@style/Profile" />
+        <activity
+            android:name=".user.selectedPandit"
+            android:theme="@style/Profile" />
+        <activity
+            android:name=".user.poojaList"
+            android:theme="@style/List" />
+        <activity
+            android:name=".user.profile"
+            android:theme="@style/Profile" />
+        <activity
+            android:name=".user.selectedPooja"
+            android:theme="@style/Profile" />
+        <activity
+            android:name=".user.paymentResult"
+            android:theme="@style/Profile" />
+
+        <!-- Pandit Ji activities -->
+        <activity
+            android:name=".pandit.panditHomePage"
+            android:label="@string/title_activity_pandit_home_page"
+            android:theme="@style/PanditHomePage" />
+        <activity
+            android:name=".pandit.searchPoojaList"
+            android:theme="@style/List" />
+        <activity
+            android:name=".pandit.selectedPoojaPandit"
+            android:theme="@style/panditProfile" />
+        <activity
+            android:name=".pandit.profilePandit"
+            android:theme="@style/panditProfile" />
+
+    </application>
+
+</manifest>

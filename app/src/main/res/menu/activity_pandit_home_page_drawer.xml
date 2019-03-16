@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pandit_profile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/pandit_nav_logout"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_pandit_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_pandit_contact"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

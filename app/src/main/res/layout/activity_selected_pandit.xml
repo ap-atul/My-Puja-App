@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.selectedPandit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Profile Details Name, Email, Profile Pic -->
+            <RelativeLayout
+                android:id="@+id/panditDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:elevation="10dp"
+                android:paddingBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/panditPic1"
+                    android:layout_width="88dp"
+                    android:layout_height="99dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/avatar" />
+
+                <EditText
+                    android:id="@+id/panditName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/panditPic1"
+                    android:layout_centerHorizontal="true"
+                    android:enabled="false"
+                    android:hint="Name"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/capriola" />
+
+
+                <TextView
+                    android:id="@+id/panditEmail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/panditName1"
+                    android:layout_below="@+id/panditName1"
+                    android:drawableLeft="@drawable/ic_sentiment_satisfied_black_24dp"
+                    android:hint="example@domain.com"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/Experience1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/panditPic1"
+                    android:layout_centerHorizontal="true"
+                    android:text="Experience"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/capriola" />
+
+                <TextView
+                    android:id="@+id/panditExperience1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/panditPic1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="52dp"
+                    android:enabled="false"
+                    android:hint="years"
+                    android:inputType="number"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/capriola" />
+
+
+            </RelativeLayout>
+
+            <!-- Communication Details Location, Address, Contact -->
+            <RelativeLayout
+                android:id="@+id/commDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/panditDetails"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white"
+                android:elevation="10dp"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Contact Details"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/panditAddress1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/textView10"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Location"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/panditCity1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/panditAddress1"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/ic_location_city_black_24dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="City"
+                    android:inputType="text"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/feesDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/commDetails"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white"
+                android:elevation="10dp"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Fees Details"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/panditFees"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/textView101"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Fees"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+                </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/book_pandit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/reg_theme_person"
+        android:text="Book Pandit Ji"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+</RelativeLayout>

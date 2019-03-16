@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".pandit.panditHomePage"
+    tools:showIn="@layout/app_bar_pandit_home_page">
+
+    <RelativeLayout
+        android:id="@+id/pandit_fab"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:background="@drawable/puja_icon"
+        android:elevation="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="38dp">
+
+
+        <Button
+            android:id="@+id/btn_notuse"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ac344b5f"
+            android:text="Search Puja"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chatsBtn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="149dp"
+        android:background="@drawable/puja_icon"
+        android:elevation="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="38dp">
+
+
+        <Button
+            android:id="@+id/chatsnotuse"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ac344b5f"
+            android:text="Chats"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

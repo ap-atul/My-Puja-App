@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MyPooja</string>
+    <string name="title_activity_pooja_list">Your Poojas</string>
+    <string name="title_activity_add_pooja">Add Pooja</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="items">
+        <item>Yajman</item>
+        <item>Pandit Ji</item>
+    </string-array>
+
+    <string name="google_maps_key">AIzaSyBBHF4CSNPi-9hlEvHRV1d8Bp5WpP_G_eA</string>
+    <string name="title_activity_map">Set Your Location</string>
+    <string name="title_activity_home_page">Home</string>
+    <string name="title_activity_new_d">newD</string>
+
+    <string name="title_activity_contact_us">contactUs</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_pandit_home_page">Home</string>
+
+    <string-array name="skill">
+        <item>Ganesha Pooja</item>
+        <item>Shiva Pooja</item>
+        <item>Devi Pooja</item>
+        <item>Vishnu Pooja</item>
+        <item>Lakshmi Pooja</item>
+        <item>Satyanarayana/Katha Vishnu Pooja</item>
+        <item>Saraswati Pooja</item>
+        <item>Dhanavantri Pooja</item>
+        <item>Navagraha Pooja</item>
+        <item>Kartikeya (Subramanya) Pooja</item>
+        <item>Ekadasa Rudrabhishekam</item>
+        <item>Chandi Homam </item>
+        <item>Rudrabhishekam</item>
+        <item>YakshmaHomam</item>
+        <item>Mritunjaya Homam </item>
+        <item>Dhanavantri Homa </item>
+        <item>Aishwarya Lakshmi </item>
+        <item>Aishwarya Ganapati </item>
+        <item>UdakaShanti Pooja </item>
+        <item>Santana Gopala Homam </item>
+        <item>Santana Lakshmi </item>
+        <item>Santana Parameswara </item>
+        <item>Namakarana Pooja</item>
+        <item>Vidya Ganapati </item>
+        <item>Vidya Lakshmi </item>
+        <item>Swayamvara Parvati Homam</item>
+        <item>Mangala Gauri </item>
+        <item>Ganesha Homam </item>
+        <item>Vijaya Lakshmi </item>
+        <item>Sankata Hara Ganesha  </item>
+        <item>Griha Pravesh – Vastu Shanti </item>
+        <item>Mangala Dosha</item>
+        <item>Mangala Shanti</item>
+        <item>KartikeyaHoma </item>
+        <item>Shani Shanti </item>
+        <item>Hanuman Homa </item>
+        <item>Sudarshana Homam  </item>
+        <item>Nakshatra Pooja</item>
+        <item>Shraadh (anniversary) </item>
+        <item>Masa Shiva-ratri (Pradosha) </item>
+        <item>Shiva pooja – Every Monday </item>
+    </string-array>
+</resources>

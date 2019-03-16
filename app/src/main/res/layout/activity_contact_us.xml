@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".common.contactUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/contact_us_background">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Contact Us"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/capriola" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="313dp"
+        android:layout_height="484dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="@android:color/white"
+        android:elevation="20dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="218dp"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="20dp"
+            android:outlineSpotShadowColor="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/contactus" />
+
+        <EditText
+            android:id="@+id/messsage"
+            android:layout_width="271dp"
+            android:layout_height="174dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/editext_shape"
+            android:fontFamily="@font/capriola"
+            android:hint="Message"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="271dp"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="154dp"
+            android:background="@drawable/editext_shape"
+            android:fontFamily="@font/capriola"
+            android:hint="Subject"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="27dp"
+            android:tint="@android:color/white"
+            app:backgroundTint="#0ea18a"
+            app:srcCompat="@drawable/ic_near_me_black_24dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

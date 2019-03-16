@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0288df"
+    android:padding="10dp"
+    tools:context=".registerActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginText"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/capriola"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:textColorHint="#025287">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/emailReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:foregroundTint="@color/colorPrimaryDark"
+            android:hint="Email Address"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/capriola" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        app:passwordToggleEnabled="true"
+        tools:visibility="visible"
+        android:textColorHint="#025287">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/spinner"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:foregroundTint="@color/colorPrimaryDark"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/capriola"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="237dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="@android:color/white"
+        android:elevation="5dp"
+        android:text="Register"
+        android:textColor="#0288df"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Already have an account? Login"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp"
+        android:layout_toStartOf="@+id/register"
+        android:backgroundTint="@android:color/white"
+        android:tooltipText="select"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:progressTint="#027467"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="82dp"
+        android:text="I am a "
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:fontFamily="@font/capriola" />
+
+</RelativeLayout>

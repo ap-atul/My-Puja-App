@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AddPooja" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ea9b07</item>
+        <item name="colorPrimaryDark">#FFF9AE23</item>
+    </style>
+
+    <style name="LoginReg" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">#088f9e</item>
+        <item name="colorPrimaryDark">#095373</item>
+        <item name="colorAccent">#034866</item>
+    </style>
+
+    <style name="AboutUs" parent="AppTheme.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#7e4fd6</item>
+        <item name="colorPrimaryDark">#340789</item>
+        <item name="colorAccent">#0ea18a</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">#0288df</item>
+        <item name="colorPrimaryDark">#085a8f</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PanditHomePage" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">#ea9b07</item>
+        <item name="colorPrimaryDark">#FFF9AE23</item>
+        <item name="colorAccent">#e67804</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Splash" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#e67804</item>
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="List" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#e2e0de</item>
+        <item name="colorAccent">#0ea18a</item>
+    </style>
+
+    <style name="Profile" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0288df</item>
+        <item name="colorPrimaryDark">#085a8f</item>
+        <item name="colorAccent">#0ea18a</item>
+    </style>
+
+    <style name="panditProfile" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ea9b07</item>
+        <item name="colorPrimaryDark">#FFF9AE23</item>
+        <item name="colorAccent">#e67804</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>

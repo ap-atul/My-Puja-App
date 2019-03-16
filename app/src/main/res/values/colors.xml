@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="send">#ce094c</color>
+
+    <color name="reg_theme_person">#0288df</color>
+    <color name="reg_theme_pandit">#fc8319</color>
+
+    <color name="white">#ffff</color>
+</resources>

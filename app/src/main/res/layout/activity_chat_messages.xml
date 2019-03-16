@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1affffff"
+    tools:context=".common.chatMessages">
+
+    <EditText
+        android:id="@+id/messageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_message_type"
+        android:ems="10"
+        android:inputType="textFilter|textMultiLine"
+        android:longClickable="false"
+        android:scrollbars="vertical"
+        android:textAlignment="inherit"
+        android:paddingLeft="10dp"
+        android:padding="12dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/black"
+        android:drawableRight="@drawable/ic_send_black_24dp"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <RelativeLayout
+        android:id="@+id/rL"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingBottom="1dp"
+        android:background="@android:color/black"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/messageName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#ffff"
+            android:fontFamily="@font/capriola"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/messagePic"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/logo" />
+
+    </RelativeLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/messagesRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rL"
+            android:layout_above="@id/messageText"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
