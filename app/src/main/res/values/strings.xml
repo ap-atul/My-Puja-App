@@ -13,7 +13,7 @@
         <item>Pandit Ji</item>
     </string-array>
 
-    <string name="google_maps_key">AIza_youu_google_maps_api_key</string>
+    <string name="google_maps_key">AIza_your_google_maps_api_key</string>
     <string name="title_activity_map">Set Your Location</string>
     <string name="title_activity_home_page">Home</string>
     <string name="title_activity_new_d">newD</string>
