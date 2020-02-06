@@ -1,10 +1,10 @@
 # My-Puja-App
-A service provider app which accept user requirements for certain ritual (hindu puja) and lets pandits bid on it and contacted to get the task done.
+A service provider app which accepts user requirements for certain ritual (Hindu puja) and lets pandits bid on it and contacted to get the task done.
 
 # Technologies Used: 
  1. Firebase ( Authentication, Realtime Database & Cloud Storage (Profile Image saving))
  2. Picasso (Profile Image fetching)
- 3. RazorPay API :  Checkout SDK (Accepting Payment) 
+ 3. RazorPay API:  Checkout SDK (Accepting Payment) 
  4. Google Maps (location acceptance) Check manifest for API keys.
 
 # Database Structure:
